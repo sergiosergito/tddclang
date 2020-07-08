@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-void myAssertEquals(int first, int second);
+void myAssertEqualsInt(int first, int second);
+void myAssertEqualsFloat(float first, float second);
 
 #endif
