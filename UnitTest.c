@@ -22,3 +22,14 @@ void myAssertEqualsFloat(float first, float second){
 	  printf("ERROR_ %f and %f are different\n", first,second);
   }
 }
+
+void myAssertEqualsDouble(double first, double second){
+    if (first == second)
+    {
+    	printf(".");
+    }
+    else
+    {
+  	  printf("ERROR_ %lf and %lf are different\n", first,second);
+    }
+}

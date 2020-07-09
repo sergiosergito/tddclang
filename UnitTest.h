@@ -5,5 +5,6 @@
 
 void myAssertEqualsInt(int first, int second);
 void myAssertEqualsFloat(float first, float second);
+void myAssertEqualsDouble(double first, double second);
 
 #endif
